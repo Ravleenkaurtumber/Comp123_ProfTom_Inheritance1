@@ -36,7 +36,7 @@ namespace Comp123_ProfTom_Inheritance1
             }
         }
         //CONSTRUCTOR
-        Person(string name,int age)
+         public Person(string name,int age)
         {
             m_name = name;
             m_age = age;
@@ -47,5 +47,22 @@ namespace Comp123_ProfTom_Inheritance1
         {
             Console.WriteLine( $"{Name} says Hello");//if use property m_name it is powerfull
         }
+        /// <summary>
+        /// this method overrides the superclass ToString Method
+        /// </summary>
+        /// <returns>
+        /// this method returns a formatted string that displays class properties 
+        /// </returns>
+        public override string ToString()
+
+        {
+            string outputString = "";
+            outputString += "\n++++++++++++++++++\n";
+            outputString += $"Name:{Name}   \n";
+            outputString += $"Age:{Age}     \n";
+            outputString += "++++++++++++++++++\n";
+            return outputString;
+        }
+
     }
 }

@@ -6,7 +6,22 @@ namespace Comp123_ProfTom_Inheritance1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Person Ravleen = new Person("Ravleen",20);
+            Ravleen.SaysHello();
+            //or string personstring=Ravleen.ToString();
+            Console.WriteLine(Ravleen.ToString());
+            Console.WriteLine();
+            Person Bhavleen = new Person("Bhavleen", 10);
+            Bhavleen.SaysHello();
+            Console.WriteLine(Bhavleen.ToString());
+            Console.WriteLine();
+            Student Gurudaya = new Student("Gurudaya", 14, "g301101894");
+            Gurudaya.SaysHello();
+            Gurudaya.Studies();
+            Console.WriteLine(Gurudaya.ToString());
+            Console.WriteLine();
+
+
         }
     }
 }
