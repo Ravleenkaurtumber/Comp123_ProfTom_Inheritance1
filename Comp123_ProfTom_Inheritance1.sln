@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comp123_ProfTom_Inheritance1", "Comp123_ProfTom_Inheritance1\Comp123_ProfTom_Inheritance1.csproj", "{19DA7D53-5D97-4BC0-BABE-632A18CF6520}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19DA7D53-5D97-4BC0-BABE-632A18CF6520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DA7D53-5D97-4BC0-BABE-632A18CF6520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DA7D53-5D97-4BC0-BABE-632A18CF6520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DA7D53-5D97-4BC0-BABE-632A18CF6520}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90753CD3-738A-457F-B0A9-F59D76731E3A}
+	EndGlobalSection
+EndGlobal
