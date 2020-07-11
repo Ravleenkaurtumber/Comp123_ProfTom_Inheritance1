@@ -20,6 +20,10 @@ namespace Comp123_ProfTom_Inheritance1
             Gurudaya.Studies();
             Console.WriteLine(Gurudaya.ToString());
             Console.WriteLine();
+            InternationalStudent maxim = new InternationalStudent("maxim", 21, "f989887677788", "46 mantis road");
+            maxim.SaysHello();
+            maxim.Studies();
+            Console.WriteLine(maxim.ToString());
 
 
         }
